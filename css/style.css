@@ -34,25 +34,6 @@ header img{
     margin: 75px 0 0 360px;
 }
 
-div{ 
-    width: 25px;
-    height: 25px;
-    left: 33%;
-    margin-top: 100px;
-    background-color: #9747FF;
-    border-radius: 100%;
-    position: relative;
-    animation: div 6s linear 1s infinite normal;
-} 
-/**/ @keyframes div {
-    0%   { transform: translate(0, 0); }
-    25%  { transform: translate(930px, 0); }
-    50%  { transform: translate(930px, 920px); }
-    75%  { transform: translate(0, 920px); }
-    100% { transform: translate(0, 0); }
-} 
-
-
 h1{
     font-size: 80px;
     font-family: "unbounded", sans-serif;
